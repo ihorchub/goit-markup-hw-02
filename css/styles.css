@@ -1,0 +1,139 @@
+/* основний колір фону - #FFFFFF */
+/* колір футера - #2F303A */
+/* додатковий колір фону - #F5F4FA */
+/* колір логотипу - #000000 */
+/* колір акценту - #2196F3 */
+/* колір ховеру кнопки героя - #188CE8 */
+/* колір заголовків - #212121 */
+/* колір тексту - #757575 */
+/* додатковий колір тексту - #FFFFFF */
+/* колір тексту із прозорістю - rgba(255, 255, 255, 0.6) */
+
+/* css змінні */
+:root {
+  --akcent-color: #2196f3;
+  --base-color: #ffffff;
+  --heading-color: #212121;
+  --text-color: #757575;
+}
+
+body {
+  background-color: var(--base-color);
+  color: var(--heading-color);
+}
+footer {
+  background-color: #2f303a;
+}
+
+.logo {
+  color: var(--akcent-color);
+}
+.logo-header {
+  color: #212121;
+}
+.logo-footer {
+  color: var(--base-color);
+}
+.list-nav a {
+  color: var(--heading-color);
+}
+.list-nav a:hover,
+.list-nav a:focus {
+  color: var(--akcent-color);
+}
+.contacts-header a {
+  color: var(--text-color);
+}
+.contacts-header a:hover,
+.contacts-header a:focus {
+  color: var(--akcent-color);
+}
+a.current {
+  color: var(--akcent-color);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+/* =============герой============== */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: var(--base-color);
+}
+.hero-button {
+  background-color: var(--akcent-color);
+  color: var(--base-color);
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #188ce8;
+}
+
+/* =============особенности============= */
+.features-list p {
+  color: var(--text-color);
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.team {
+  background-color: #f5f4fa;
+}
+.team p {
+  color: var(--text-color);
+}
+.team-list li {
+  background-color: var(--base-color);
+}
+.address-map {
+  color: var(--base-color);
+}
+.address-map:hover,
+.address-map:focus {
+  color: var(--akcent-color);
+}
+.address-tel,
+.address-mail {
+  color: rgba(255, 255, 255, 0.6);
+}
+.address-tel:hover,
+.address-tel:focus {
+  color: var(--akcent-color);
+}
+.address-mail:hover,
+.address-mail:focus {
+  color: var(--akcent-color);
+}
+.filters-btn {
+  color: var(--heading-color);
+  background-color: #f5f4fa;
+  border: none;
+}
+.filters-btn:hover,
+.filters-btn:focus {
+  background-color: var(--akcent-color);
+  color: var(--base-color);
+}
+.works-link h2 {
+  color: var(--heading-color);
+}
+.works-link p {
+  color: var(--text-color);
+}
+.works li {
+  background-color: var(--base-color);
+}
