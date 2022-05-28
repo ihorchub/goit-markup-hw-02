@@ -96,6 +96,7 @@ a.current {
   background-color: var(--akcent-color);
   color: var(--base-color);
   border: none;
+  cursor: pointer;
 
   font-family: inherit;
   font-weight: 700;
@@ -132,7 +133,6 @@ a.current {
 .features-list p {
   color: var(--text-color);
 
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -170,7 +170,6 @@ a.current {
 .team-list p {
   color: var(--text-color);
 
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -180,7 +179,6 @@ a.current {
 /* =============футер============= */
 .address {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -210,6 +208,7 @@ a.current {
   color: var(--heading-color);
   background-color: #f5f4fa;
   border: none;
+  cursor: pointer;
 
   font-family: inherit;
   font-weight: 500;
@@ -237,7 +236,6 @@ a.current {
 .works-link p {
   color: var(--text-color);
 
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
