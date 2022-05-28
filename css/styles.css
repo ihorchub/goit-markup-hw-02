@@ -8,6 +8,7 @@
 /* колір тексту - #757575 */
 /* додатковий колір тексту - #FFFFFF */
 /* колір тексту із прозорістю - rgba(255, 255, 255, 0.6) */
+/* ?Raleway 700, Roboto 400 500 700 900 */
 
 /* css змінні */
 :root {
@@ -20,6 +21,8 @@
 body {
   background-color: var(--base-color);
   color: var(--heading-color);
+
+  font-family: Roboto, sans-serif;
 }
 footer {
   background-color: #2f303a;
@@ -27,6 +30,12 @@ footer {
 
 .logo {
   color: var(--akcent-color);
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 .logo-header {
   color: #212121;
@@ -36,6 +45,11 @@ footer {
 }
 .list-nav a {
   color: var(--heading-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .list-nav a:hover,
 .list-nav a:focus {
@@ -43,6 +57,12 @@ footer {
 }
 .contacts-header a {
   color: var(--text-color);
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .contacts-header a:hover,
 .contacts-header a:focus {
@@ -64,20 +84,32 @@ a.current {
 }
 .hero-title {
   color: var(--base-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .hero-button {
   background-color: var(--akcent-color);
   color: var(--base-color);
+  border: none;
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 .hero-button:hover,
 .hero-button:focus {
   background-color: #188ce8;
 }
 
-/* =============особенности============= */
-.features-list p {
-  color: var(--text-color);
-}
+/* =============преимущества============= */
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -90,14 +122,68 @@ a.current {
   clip-path: inset(50%);
   margin: -1px;
 }
+.features-list h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.features-list p {
+  color: var(--text-color);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* =============чем мы занимаемся============= */
+.directions h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* =============команда============= */
 .team {
   background-color: #f5f4fa;
 }
-.team p {
-  color: var(--text-color);
+.team h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .team-list li {
   background-color: var(--base-color);
+}
+.team-list h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-list p {
+  color: var(--text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* =============футер============= */
+.address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .address-map {
   color: var(--base-color);
@@ -118,22 +204,41 @@ a.current {
 .address-mail:focus {
   color: var(--akcent-color);
 }
+
+/* =============портфолио============= */
 .filters-btn {
   color: var(--heading-color);
   background-color: #f5f4fa;
   border: none;
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .filters-btn:hover,
 .filters-btn:focus {
   background-color: var(--akcent-color);
   color: var(--base-color);
 }
+.works li {
+  background-color: var(--base-color);
+}
 .works-link h2 {
   color: var(--heading-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 .works-link p {
   color: var(--text-color);
-}
-.works li {
-  background-color: var(--base-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
 }
